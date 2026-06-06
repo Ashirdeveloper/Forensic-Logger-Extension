@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Incognito Forensic Logger</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>🔍 Forensic Browser Logger</h1>
+  </div>
+  
+  <div id="status" class="status-active">ACTIVE TRACKING...</div>
+  <div class="subtitle">Monitoring Normal & Incognito Browsing</div>
+  
+  <div class="controls">
+    <button id="showLogs"> Show Recent Logs</button>
+    <button id="exportJson"> Export JSON (Full Data)</button>
+    <button id="exportCsv"> Export CSV (Full Data)</button>
+    <button id="clearLogs">🗑️ Clear All Logs</button>
+  </div>
+  
+  <div id="logsPreview"></div>
+  
+  <div class="stats">
+    <div class="stat-item">
+      <div class="stat-number" id="totalLogs">0</div>
+      <div>Total Logs</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number" id="incognitoLogs">0</div>
+      <div>Incognito</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number" id="normalLogs">0</div>
+      <div>Normal</div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
