@@ -1,4 +1,6 @@
 # Incognito Forensic Logger Extension
+<img width="340" height="603" alt="image" src="https://github.com/user-attachments/assets/b077ee84-81e1-4f64-9657-e3993f1a31b8" />
+A Screenshot of the extenaion while testing it in both Normal and Incognito modes...
 
 ## Summary
 
