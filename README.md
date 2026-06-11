@@ -1,7 +1,7 @@
 # Incognito Forensic Logger Extension
 <img width="340" height="603" alt="image" src="https://github.com/user-attachments/assets/b077ee84-81e1-4f64-9657-e3993f1a31b8" />
-A Screenshot of the extenaion while testing it in both Normal and Incognito modes...
 
+A Screenshot of the extenaion while testing it in both Normal and Incognito modes...
 ## Summary
 
 This Chrome extension, "Incognito Forensic Logger", captures and displays browsing activity that occurs in Chrome's Incognito windows when the user enables the extension for incognito use. It provides a simple popup UI to view recent entries, export collected data as JSON or CSV, and clear stored logs. The tool is intended for testing and controlled forensic analysis only not for unauthorized monitoring and stores data locally using the extension storage APIs. Note: users must enable "Allow in incognito" on the extension's details page to collect logs in private windows.
